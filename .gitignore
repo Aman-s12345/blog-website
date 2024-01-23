@@ -1,7 +1,7 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
-/node_modules
+
 /.pnp
 .pnp.js
 
@@ -24,3 +24,9 @@ yarn-error.log*
 
 node_modules/
 
+git init
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin "https://github.com/Aman-s12345/blog-website.git"
+git push -u origin main
